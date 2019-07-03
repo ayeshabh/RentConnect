@@ -54,13 +54,13 @@
 									<li><a href="property-rent.html">Rent Property</a></li>
 								</ul>
 							</li>
-							<li class="menu-has-children menu-active"><a href="">Account</a>
+							<li class="menu-has-children"><a href="">Account</a>
 								<ul>
 									<li><a href="createaccount.html">Create Account</a></li>
 									<li><a href="signin.html">Sign In</a></li>
 								</ul>
 							</li>
-							<li><a href="contact.html">Contact</a></li>
+							<li class="menu-active"><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav>
 					<!--######## #nav-menu-container -->
@@ -77,10 +77,10 @@
 			<div class="row d-flex text-center align-items-center justify-content-center">
 				<div class="about-content col-lg-12">
 					<p class="text-white link-nav"><a href="index.html">Home </a>
-						<span class="lnr lnr-arrow-right"></span> <a href="agents.html">
-							Account</a></p>
+						<span class="lnr lnr-arrow-right"></span> <a href="contact.html">
+							Contact Us</a></p>
 					<h1 class="text-white">
-						 Create Account
+						Contact Us
 					</h1>
 				</div>
 			</div>
@@ -88,127 +88,55 @@
 	</section>
 	<!-- End banner Area -->
 
-	<!-- Start team Area -->
-	<section class="team-area" id="team">
+	<!-- Start contact-page Area -->
+	<section class="contact-page-area section-gap">
 		<div class="container">
-			<div class="row d-flex align-items-center">
-				<div class="col-lg-3 col-md-4 single-team">
-					<div class="thumb">
-						<img class="img-fluid" src="img/agents/a1.jpg" alt="">
-						<div class="align-items-center justify-content-center d-flex">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
+			<div class="row mt-80">
+				<div class="col-lg-3">
+					<div class="contact_info">
+						<div class="info_item">
+							
+							<h5>Create Account</h5>
 						</div>
-					</div>
-					<div class="meta-text text-center">
-						<h4>Ethel Davis</h4>
-						<p>Managing Director (Sales)</p>
+						<div class="info_item">
+							<i class="lnr lnr-phone-handset"></i>
+							<h6><a href="#">00 (440) 9865 562</a></h6>
+							<p>Mon to Fri 9am to 6 pm</p>
+						</div>
+						<div class="info_item">
+							<i class="lnr lnr-envelope"></i>
+							<h6><a href="#">support@colorlib.com</a></h6>
+							<p>Send us your query anytime!</p>
+						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-4 single-team">
-					<div class="thumb">
-						<img class="img-fluid" src="img/agents/a2.jpg" alt="">
-						<div class="align-items-center justify-content-center d-flex">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
+				<div class="col-lg-9">
+					<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+							</div>
 						</div>
-					</div>
-					<div class="meta-text text-center">
-						<h4>Rodney Cooper</h4>
-						<p>Creative Art Director (Project)</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 single-team">
-					<div class="thumb">
-						<img class="img-fluid" src="img/agents/a3.jpg" alt="">
-						<div class="align-items-center justify-content-center d-flex">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
+						<div class="col-md-6">
+							<div class="form-group">
+								<textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+							</div>
 						</div>
-					</div>
-					<div class="meta-text text-center">
-						<h4>Dora Walker</h4>
-						<p>Senior Core Developer</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 single-team">
-					<div class="thumb">
-						<img class="img-fluid" src="img/agents/a4.jpg" alt="">
-						<div class="align-items-center justify-content-center d-flex">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
+						<div class="col-md-12 text-right">
+							<button type="submit" value="submit" class="btn primary-btn">Send Message</button>
 						</div>
-					</div>
-					<div class="meta-text text-center">
-						<h4>Lena Keller</h4>
-						<p>Creative Content Developer</p>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-md-4 single-team">
-					<div class="thumb">
-						<img class="img-fluid" src="img/agents/a1.jpg" alt="">
-						<div class="align-items-center justify-content-center d-flex">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-					<div class="meta-text text-center">
-						<h4>Ethel Davis</h4>
-						<p>Managing Director (Sales)</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 single-team">
-					<div class="thumb">
-						<img class="img-fluid" src="img/agents/a2.jpg" alt="">
-						<div class="align-items-center justify-content-center d-flex">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-					<div class="meta-text text-center">
-						<h4>Rodney Cooper</h4>
-						<p>Creative Art Director (Project)</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 single-team">
-					<div class="thumb">
-						<img class="img-fluid" src="img/agents/a3.jpg" alt="">
-						<div class="align-items-center justify-content-center d-flex">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-					<div class="meta-text text-center">
-						<h4>Dora Walker</h4>
-						<p>Senior Core Developer</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-4 single-team">
-					<div class="thumb">
-						<img class="img-fluid" src="img/agents/a4.jpg" alt="">
-						<div class="align-items-center justify-content-center d-flex">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-					<div class="meta-text text-center">
-						<h4>Lena Keller</h4>
-						<p>Creative Content Developer</p>
-					</div>
+					</form>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- End team Area -->
+	<!-- End contact-page Area -->
 
 	<!-- start footer Area -->
 	<footer class="footer-area section-gap">
@@ -294,5 +222,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
-
 </html>
