@@ -205,26 +205,14 @@ $(document).ready(function () {
         keyboard: true,
         min: 500,
         max: 3000,
-        from: 15000,
-        to: 100000,
+        from: 600,
+        to: 1000,
         type: 'double',
         step: 1,
         prefix: "$",
         grid: true
     });
-    $("#range2").ionRangeSlider({
-        hide_min_max: true,
-        keyboard: true,
-        min: 50,
-        max: 1500,
-        from: 250,
-        to: 1500,
-        type: 'double',
-        step: 1,
-        prefix: "",
-        grid: true
-    });
-
+    
 
 
 
