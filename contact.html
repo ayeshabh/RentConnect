@@ -90,46 +90,51 @@
 	<!-- End banner Area -->
 	
 
-
 	<!-- Start contact-page Area -->
 	<section class="contact-page-area section-gap">
-		<h1>How Can We Help You?</h1>
-					<p>
-						If you have any questions or comments that you would like to share with us, 
-						please feel free to reach out to us directly. You will find our contact information below.
-					</p>
 		<div class="container">
-			<div class= "col-lg-6">
-				<div id="map-container" class="map-container z-depth=1-half"
-				     style="height: 400px;"></div>
-				     
-				     
-				<div class="col-lg-3">
-					<div class="col-md-10 header-text">
-					<div class="contact_info">
-						<p></p>
-						<div class="info_item">
-							<i class="lnr lnr-home"></i>
-							<h6>31 Weber St. N, Waterloo ON, N4L 2K6</h6>
-							<p></p>
+			<h2> How Can We Help You? </h2>
+			<p>If you have any questions or comments that you would like to share with us, 
+				please feel free to reach out to us directly. You will find our contact information below.</p>
+			<div class="row mt-80">
+				<div class="col-lg-10">
+					<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Enter your first name">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Enter your last name">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="email" name="email" placeholder="Enter phone number">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="email" name="email" placeholder="Confirm email address">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="subject" name="password" placeholder="Enter Password">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="subject" name="password" placeholder="Confirm Password">
+							</div>
 						</div>
-						<div class="info_item">
-							<i class="lnr lnr-phone-handset"></i>
-							<h6><a href="#">519.546.2356</a></h6>
-							<p>Mon to Fri 9am to 6pm</p>
+						
+						<div class="col-md-10 text-right">
+							<button type="submit" value="submit" class="btn primary-btn">Create Account</button>
 						</div>
-						<div class="info_item">
-							<i class="lnr lnr-envelope"></i>
-							<h6><a href="#">living@rentconnect.com</a></h6>
-							
-						</div>
-					</div>
+					</form>
 				</div>
-				
 			</div>
 		</div>
 	</section>
 	<!-- End contact-page Area -->
+
+	
+	
 
 	<!-- start footer Area -->
 	<footer class="footer-area section-gap">
