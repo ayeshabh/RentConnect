@@ -126,6 +126,14 @@
 							</div>
 							<a href="flagpost.html" class="btn btn-info" role="button">Flag</a>
 							
+							<button onclick="goBack()">Back to Properties</button>
+
+							<script>
+							function goBack() {
+							  window.history.back();
+							}
+							</script>
+							
 						</div>
 					</div>
 				</div>
@@ -134,8 +142,6 @@
 	</section>
 	
 	<button onclick="goBack()">Go Back</button>
-
-	<p>Notice that clicking on the Back button here will not result in any action, because there is no previous URL in the history list.</p>
 
 	<script>
 	function goBack() {
