@@ -203,10 +203,10 @@ $(document).ready(function () {
     $("#range").ionRangeSlider({
         hide_min_max: true,
         keyboard: true,
-        min: 500,
+        min: 0,
         max: 3000,
-        from: 700,
-        to: 2000,
+        from: 500,
+        to: 1500,
         type: 'double',
         step: 1,
         prefix: "$",
