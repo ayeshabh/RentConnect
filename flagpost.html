@@ -110,11 +110,26 @@
 					</div>
 						
 						<div class="col-md-10 text-right">
-							<button type="submit" value="submit" class="btn primary-btn">Flag Post</button>
-							BootstrapDialog.show({
-							    title: 'Form Sent',
-							    message: 'Thank you for notifying us about this post.'
-							});
+							<!-- Trigger the modal with a button -->
+							  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Flag Post</button>
+
+							  <!-- Modal -->
+							  <div class="modal fade" id="myModal" role="dialog">
+							    <div class="modal-dialog modal-sm">
+							      <div class="modal-content">
+								<div class="modal-header">
+								  <button type="button" class="close" data-dismiss="modal">&times;</button>
+								  <h4 class="modal-title">Form Sent</h4>
+								</div>
+								<div class="modal-body">
+								  <p>Thank you for notifying us about this post.</p>
+								</div>
+								<div class="modal-footer">
+								  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							      </div>
+							    </div>
+							  </div>
 						</div>
 					</form>
 				</div>
