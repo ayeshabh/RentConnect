@@ -94,28 +94,28 @@
 			<h2> Create Your Account </h2>
 			<div class="row mt-80">
 				<div class="col-lg-10">
-					<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+					<form class="row contact_form" action="contact_process.php" method="POST" id="contactForm" novalidate="novalidate">
 						<div class="col-md-6">
 							<div class="form-group">
-								<input type="text" class="form-control" id="name" name="name" placeholder="Enter your first name">
+								<input type="first_name" class="form-control" id="name" name="first_name" required placeholder="Enter your first name">
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" id="name" name="name" placeholder="Enter your last name">
+								<input type="last_name" class="form-control" id="name" name="last_name" required placeholder="Enter your last name">
 							</div>
 							<div class="form-group">
-								<input type="email" class="form-control" id="email" name="email" placeholder="Enter phone number">
+								<input type="phone" class="form-control" id="email" name="phone" required placeholder="Enter phone number">
 							</div>
 							<div class="form-group">
-								<input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+								<input type="email" class="form-control" id="email" name="email" required placeholder="Enter email address">
 							</div>
 							<div class="form-group">
-								<input type="email" class="form-control" id="email" name="email" placeholder="Confirm email address">
+								<input type="email2" class="form-control" id="email" name="email2" required placeholder="Confirm email address">
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" id="subject" name="password" placeholder="Enter Password">
+								<input type="password" class="form-control" id="subject" name="password" required placeholder="Enter Password">
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" id="subject" name="password" placeholder="Confirm Password">
+								<input type="password2" class="form-control" id="subject" name="password2" required placeholder="Confirm Password">
 							</div>
 						</div>
 						
