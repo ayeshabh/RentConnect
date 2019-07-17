@@ -17,8 +17,8 @@ if (!empty($first_name) || !empty($last_name) || !empty($phone) || !empty($email
 	if(mysqli_connect_error()){
 		die('Connect Error('.mysqli_connect_errno(). ')' .mysqli_connect_error());
 	}else {
-		$SELECT = "SELECT email From user Where email = ? Limit 1"; 
-		$INSERT = "INSERT Into user (email, password, first_name, last_name, phone) values (?,?,?,?,?)"
+		$SELECT = "SELECT email From users Where email = ? Limit 1"; 
+		$INSERT = "INSERT Into users (email, password, first_name, last_name, phone) values (?,?,?,?,?)"
 		
 		$stmt = $conn->prepare($SELECT);
 		$stmt->bind_param("s", $email);
