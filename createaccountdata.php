@@ -5,7 +5,7 @@ $first_name = $_POST['first_name'];
 $last_name = $_POST['last_name'];
 $phone = $_POST['phone'];
 
-if (!empty($first_name) || !empty($last_name) || !empty($phone) || !empty($email) || !empty($password)) 
+if (!empty($first_name) && !empty($last_name) && !empty($phone) && !empty($email) && !empty($password)) 
 { 
 	$host = "localhost";
 	$dbUsername = "root";
