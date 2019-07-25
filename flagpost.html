@@ -111,9 +111,7 @@
 						
 						<div class="col-md-10 text-right">
 							<!-- Trigger the modal with a button -->
-							  <script>
-							  <button onclick="location.reload(); type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Flag Post</button>
-							</script>
+							  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Flag Post</button>
 							  <!-- Modal -->
 							  <div class="modal fade" id="myModal" role="dialog">
 							    <div class="modal-dialog modal-sm">
@@ -126,7 +124,9 @@
 								  <p>Thank you for notifying us about this.</p>
 								</div>
 								<div class="modal-footer">
-								  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									<script>
+										<button onclick="location.reload(); type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									</script>
 								</div>
 							      </div>
 							    </div>
